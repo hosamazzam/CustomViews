@@ -1,4 +1,4 @@
-# SupportScreenSize
+# CustomViews
 [![](https://jitpack.io/v/hosamazzam/CustomViews.svg)](https://jitpack.io/#hosamazzam/CustomViews)
 
 To get a Git project into your build:
