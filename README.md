@@ -43,3 +43,27 @@ Step 2. Add the dependency in app/build.gradle
 
 ## Code Examples
 
+<NonScrollGridView> tag in xml file
+
+```
+<com.hosamazzam.customviews.NonScrollGridView
+                android:id="@+id/grid_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               />
+```
+
+<NonScrollListView> tag in xml file
+
+```
+ <com.hosamazzam.customviews.NonScrollListView
+  	android:id="@+id/custom_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+```
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
