@@ -43,7 +43,7 @@ Step 2. Add the dependency in app/build.gradle
 
 ## Code Examples
 
-<NonScrollGridView> tag in xml file
+[NonScrollGridView] tag in xml file
 
 ```
 <com.hosamazzam.customviews.NonScrollGridView
@@ -53,7 +53,7 @@ Step 2. Add the dependency in app/build.gradle
                />
 ```
 
-<NonScrollListView> tag in xml file
+[NonScrollListView] tag in xml file
 
 ```
  <com.hosamazzam.customviews.NonScrollListView
