@@ -1,5 +1,6 @@
 # CustomViews
 [![](https://jitpack.io/v/hosamazzam/CustomViews.svg)](https://jitpack.io/#hosamazzam/CustomViews)
+[![HitCount](https://hitt.herokuapp.com/hosamazzam/CustomViews.svg)](https://github.com/hosamazzam/CustomViews)
 
 ## Synopsis
 
