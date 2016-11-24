@@ -1,7 +1,7 @@
 # CustomViews
 [![](https://jitpack.io/v/hosamazzam/CustomViews.svg)](https://jitpack.io/#hosamazzam/CustomViews)
 [![HitCount](https://hitt.herokuapp.com/hosamazzam/CustomViews.svg)](https://github.com/hosamazzam/CustomViews)
-
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/hosamazzam/CustomViews)
 ## Synopsis
 
 CustomViews is library that support customize view like listview, gridview and textview
