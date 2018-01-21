@@ -1,24 +1,17 @@
 package com.hosamazzam.customviews;
 
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
-import android.os.Build;
+import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
-import android.widget.TextView;
+import android.util.Log;
 
 /**
  * Created by hosam azzam on 23/11/2016.
  */
 
-public class CustomFontTextView extends TextView {
-
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public CustomFontTextView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
-        init(attrs);
-    }
+public class CustomFontTextView extends AppCompatTextView {
 
     public CustomFontTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
@@ -47,7 +40,7 @@ public class CustomFontTextView extends TextView {
                     setTypeface(myTypeface);
                 }
             } catch (Exception e) {
-                e.printStackTrace();
+                Log.e("CustomFontTextView", "Unable to load typeface: " + e.getMessage());
             }
 
             a.recycle();

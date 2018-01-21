@@ -1,15 +1,14 @@
 # CustomViews
 [![](https://jitpack.io/v/hosamazzam/CustomViews.svg)](https://jitpack.io/#hosamazzam/CustomViews)
-[![HitCount](https://hitt.herokuapp.com/hosamazzam/CustomViews.svg)](https://github.com/hosamazzam/CustomViews)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/hosamazzam/CustomViews/issues)
 ## Synopsis
 
-CustomViews is library that support customize view like listview, gridview and textview
+CustomViews is library that support customize view like listView, gridView, imageView and textView
 
 ## Motivation
 
 sometime you want to insert gridview or list view in scrollview but you can't do that is they not expanded as it has built in scrollview so i made this views tocatre non scroll view for this two views
-For textview you can't add fontface for text in xml but in runtime but with this customfonttextview you can do that, Sound awesome right!
+For textview you can't add fontface for text in xml but in runtime but with this customfonttextview you can do that also if want to make your imageView rounded from corners, Sound awesome right!
 
 ## Getting Started
 
@@ -47,20 +46,40 @@ Step 2. Add the dependency in app/build.gradle
 
 ```
 <com.hosamazzam.customviews.NonScrollGridView
-                android:id="@+id/grid_listview"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-               />
+        android:id="@+id/grid_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 ```
 
 [NonScrollListView] tag in xml file
 
 ```
  <com.hosamazzam.customviews.NonScrollListView
-  	android:id="@+id/custom_listview"
+    	android:id="@+id/custom_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+```
 
+[RoundCornerImageView] tag in xml file
+
+```
+ <com.hosamazzam.customviews.RoundCornerImageView
+  	    android:id="@+id/custom_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cornerRadius="20.0"/>
+```
+
+[CustomFontTextView] tag in xml file
+
+Notes : font file should put in src\main\assets/fonts/MyFont.ttf
+
+```
+ <com.hosamazzam.customviews.CustomFontTextView
+  	    android:id="@+id/custom_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fontName="MyFont.ttf"/>
 ```
 
 
