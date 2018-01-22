@@ -46,4 +46,15 @@ public class CustomFontTextView extends AppCompatTextView {
             a.recycle();
         }
     }
+
+    public void setFont(String fontName) {
+        try {
+            if (fontName != null) {
+                Typeface myTypeface = Typeface.createFromAsset(getContext().getAssets(), "fonts/" + fontName);
+                setTypeface(myTypeface);
+            }
+        } catch (Exception e) {
+            throw new RuntimeException("Unable to load typeface: " + e.getMessage());
+        }
+    }
 }
