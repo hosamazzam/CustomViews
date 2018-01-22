@@ -32,7 +32,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency in app/build.gradle
 
 	dependencies {
-	        compile 'com.github.hosamazzam:CustomViews:v1.0.3'
+	        implementation 'com.github.hosamazzam:CustomViews:v1.0.3'
 	}
 
 ## Built With
